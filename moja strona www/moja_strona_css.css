@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-04-14, 14:04:32
+    Author     : Bobo
+*/
+#wrapper{width: 1000px; height: auto; margin: 0 auto;}
+#top{width: 1000px; height: 112px; background: #ffcc99}
+#container{width: 1000px; height: auto; padding: 9px; float: left; background: white}
+
+.leftBox{width: 765px; height: 433px; float: left; background: beige}
+.topRightBox{width: 207px; height: 360px; float: left; background: green; margin-left: 9px; background-image: url("moje_zdjęcie1.jpg");}
+.topBottomBox{width: 207px; height: 64px; float: left; background: beige; margin-left: 9px; margin-top: 9px}
+.line{width: 982px; height: 50px; float: left; background: bisque; margin-top: 9px}
+.box{width: 190px; height: 190px; float: left; background: beige; margin-right: 8px; margin-top: 9px}
+footer{width: 1000px; height: 200px; float: left; background: blanchedalmond}
+
+h2 {font-size: 14pt; text-align: center; font-family: Georgia, "Times Nee Roman"; font-style: italic }
+
+.napis{float:left; width: 33.33%; text-align: center; font-family: Georgia, "Times Nee Roman"; font-style: italic}
+a {
+    text-decoration: none;
+}
+
+#menu ol, ol li {
+	display: block;
+	list-style: none;
+        text-align: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ol li {
+	display: inline;
+	white-space: nowrap;
+        float: left;
+        width: 330.3px;
+        text-align: center;
+        font-family: Georgia, "Times Nee Roman";
+        font-style: italic;
+}
+#menu ol li:hover{color:#09C;
+}
+#menu ol li ul {display: none; 
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+      }
+#menu ol li:hover ul {display: block;                                                
+      }
+#menu ol li:hover ul li {color: black;
+                         display: table-column;
+                         font-family: Georgia, "Times Nee Roman";
+                         font-style: italic;
+                         font-size: 12pt;
+      }
+        
